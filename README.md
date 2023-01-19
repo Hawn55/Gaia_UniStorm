@@ -1,6 +1,6 @@
 # Gaia_UniStorm
 
-#・Plugins<br>
+# ・Plugins<br>
 AnimX Animals<br>
 PostProcessing<br>
 Procedural Worlds<br>

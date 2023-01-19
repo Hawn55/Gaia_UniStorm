@@ -54,193 +54,190 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="C:\Users\k.oishi\UnityProject\Gaia_UniStorm\My project\Assets\Plugins\Procedural Worlds\Frameworks\Common5\PWCommon5DLL.dll" />
-    <Analyzer Include="C:\Users\k.oishi\UnityProject\Gaia_UniStorm\My project\Assets\Plugins\Procedural Worlds\Frameworks\Common5\Editor\PWCommon5EditorDLL.dll" />
-    <Analyzer Include="C:\Users\k.oishi\UnityProject\Gaia_UniStorm\My project\Assets\Plugins\Procedural Worlds\Frameworks\CleanUp4\Editor\PWCleanUp4EditorDLL.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\ConvertStamps.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaSessionEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Scene Managment\Editor\GaiaSceneManagement.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaTerrainHeightAdjuster.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaURPPipelineUtils.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Water System\Editor\GaiaWater.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Mesh Simplifier\Editor\SerializedPropertyExtensions.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\API\Editor\DemoAPIControllerEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaRemovalEditor.cs" />
+    <Compile Include="Assets\Plugins\PostProcessing\Editor\Models\MotionBlurModelEditor.cs" />
+    <Compile Include="Assets\Plugins\PostProcessing\Editor\Models\UserLutModelEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\AboutEditor.cs" />
+    <Compile Include="Assets\Plugins\PostProcessing\Editor\Models\AntialiasingModelEditor.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\---Game Modules\Audio Clip Combiner\Editor\AudioClipCombinerEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Photo Mode\Editor\PhotoModeProfileEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Water System\Editor\PW_Water_MaterialEditor.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\Equipment System\Editor\EquipObjectMenu.cs" />
+    <Compile Include="Assets\Plugins\UniStorm Weather System\Scripts\Effects\Editor\UniStormSunShaftsEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\SpawningSystem\Editor\SpawnerSettingsEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\ValueAdds\Location System\Editor\LocationManagerEditor.cs" />
+    <Compile Include="Assets\Plugins\PostProcessing\Editor\Models\BloomModelEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\TerrainDetailOverwriteEditor.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\Editor\SFB_LoadWelcome.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\ValueAdds\Post Processing Converter\Editor\PostProcessingConverterEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\UnityPipelineProfileEditor.cs" />
+    <Compile Include="Assets\Plugins\PostProcessing\Editor\Monitors\HistogramMonitor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\ReflectionProbeEditorUtils.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Water System\Editor\GaiaWaterGX.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaStopwatchDatasetEditor.cs" />
+    <Compile Include="Assets\Plugins\PostProcessing\Editor\Models\ScreenSpaceReflectionModelEditor.cs" />
+    <Compile Include="Assets\Plugins\PostProcessing\Editor\Models\BuiltinDebugViewsEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\StamperEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\TexturePickerEditor.cs" />
+    <Compile Include="Assets\Plugins\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\Editor\SFB_AudioSnapshotExporterEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\SimpleCameraLayerCullingEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Scene Managment\Editor\GaiaWaterEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaDefaultsEditor.cs" />
+    <Compile Include="Assets\Plugins\PostProcessing\Editor\PostProcessingBehaviourEditor.cs" />
     <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\SpawnerEditor.cs" />
     <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\ShorelineMaskerEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\TerrainDetailOverwriteEditor.cs" />
+    <Compile Include="Assets\Plugins\PostProcessing\Editor\Models\EyeAdaptationModelEditor.cs" />
     <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaStopwatchControlEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Scene Managment\Editor\GaiaSceneManagement.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\GaiaGlobalEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaTerrainHeightAdjuster.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaNormalExporterEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\ExtensionSystem\Editor\OverCloudExtension.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaTerrainExplorerEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\EditorUtils.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\ScannerEditor.cs" />
+    <Compile Include="Assets\Plugins\PostProcessing\Editor\Models\FogModelEditor.cs" />
     <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\SpawningSystem\Editor\SpawnerSettingsListEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\ValueAdds\Post Processing Converter\Editor\PostProcessingConverterEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\UIConfigurationEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\ResourceVisualiserEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\PWApp.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\UnityPipelineProfileEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaMaskExporterEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Asset Samples\Biomes\CTS Profiles\Editor\CTSGX.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\ReflectionProbeEditorUtils.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\ValueAdds\Location System\Editor\LocationSystemEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Shaders\Scripts\Editor\PW_General_MaterialEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Task System\Editor\GaiaTaskEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Photo Mode\Editor\ParentScalerEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\MaskSystem\Editor\MaskMapExportSettingsEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Water System\Reflections\Editor\ReflectionMaskerEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Water System\Editor\AdvancedWaterUtilsEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaMaintenanceProfileEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaExtensionExporterEditor.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\Editor\InfinitySoEditor.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\Editor\AnimationEventCopier.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaTerrainStitcher.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\PackageInstallerUtils.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\SelectProfileWindowEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\ConvertStamps.cs" />
+    <Compile Include="Assets\Plugins\PostProcessing\Editor\PropertyDrawers\GetSetDrawer.cs" />
     <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\SpawningSystem\Editor\WorldGeneratorEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Photo Mode\Editor\PhotoModeProfileEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\SpawningSystem\Editor\BiomeControllerEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\PWSkyPostProcessingManagerEditor.cs" />
+    <Compile Include="Assets\Plugins\PostProcessing\Editor\PropertyDrawers\MinDrawer.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaWelcome.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Scene Managment\Editor\GaiaLightingEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\TerrainConverterEditorWindow.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaEditorUtils.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\UserFilesEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaNormalExporterEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\PWApp.cs" />
     <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Scene Managment\Editor\CommandBufferManagerEditor.cs" />
     <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\GaiaSkiesGX.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\GaiaLighting.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Scene Managment\Editor\GaiaPlayerEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Water System\Editor\PW_Water_MaterialEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Water System\Editor\GaiaWaterGX.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Water System\Reflections\Editor\GaiaPlanarReflectionsHDRPEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\SpawningSystem\Editor\BiomePresetEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\PWSkyPostProcessingManagerEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaURPPipelineUtils.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\MaskSystem\Editor\CollisionMaskListEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\MultiTerrainSystem\Editor\TerrainLoaderManagerEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaScriptOrderManager.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaStopwatchDatasetEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\StampingSystem\Editor\StamperSettingsEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Water System\Editor\GaiaWater.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\FreeCameraEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaTerrainStitcher.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\HDRPDensityVolumeControllerEditor.cs" />
     <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\Editor\ExportNoiseWindow.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\SpawningSystem\Editor\SpawnerSettingsEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\StamperEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\AutoDepthOfFieldEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Water System\Reflections\Editor\GaiaPlanarReflectionsEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\StampingSystem\Editor\WorldMapStampTokenEditor.cs" />
     <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaDefinesEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Mesh Simplifier\Editor\LODGeneratorHelperEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\StampingSystem\Editor\StamperAutoMaskExportListEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\SpawningSystem\Editor\WorldDesignerEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaWelcome.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Mesh Simplifier\Editor\SerializedPropertyExtensions.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\TexturePickerEditor.cs" />
     <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaGrassMaskExporterEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Scene Managment\Editor\SceneProfileEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\ValueAdds\Location System\Editor\LocationManagerEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\PackageInstallerUtils.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\LightProbeUtils.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Scene Managment\Editor\GaiaLightingEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Water System\Editor\DisableUnderwaterFXTriggerEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\TerrainConverterEditorWindow.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaStdMenu.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaResourceEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Water System\Editor\PW_WaterUnder_MaterialEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\FloraEditorUtils.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\API\Editor\APITestEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\StampingSystem\Editor\WorldMapEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\ConvertTerrains.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\MaskSystem\Editor\ImageMaskListEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\API\Editor\DemoAPIControllerEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Frameworks\PWAddressables1\Editor\PWAddressableContentPackConfigEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Water System\Editor\GaiaWaterProfileEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\ScreenShotterEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaRemovalEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\SimpleCameraLayerCullingEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\SpawnerGroupEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaEditorUtils.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Photo Mode\Editor\PhotoModeEditor.cs" />
+    <Compile Include="Assets\Plugins\PostProcessing\Editor\Monitors\ParadeMonitor.cs" />
     <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\ExportTerrain.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\GaiaLightingProfileEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaLWRPPipelineUtils.cs" />
+    <Compile Include="Assets\Plugins\PostProcessing\Editor\PostProcessingMonitor.cs" />
+    <Compile Include="Assets\Plugins\PostProcessing\Editor\Models\ColorGradingModelEditor.cs" />
+    <Compile Include="Assets\Plugins\PostProcessing\Editor\PropertyDrawers\TrackballGroupDrawer.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaResourceHelper.cs" />
+    <Compile Include="Assets\Plugins\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\Equipment System\Editor\EquipmentSystemStatic.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\SpawningSystem\Editor\BiomePresetEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\MaskSystem\Editor\CollisionMaskListEditor.cs" />
+    <Compile Include="Assets\Plugins\PostProcessing\Editor\PostProcessingFactory.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\StampingSystem\Editor\StamperSettingsEditor.cs" />
+    <Compile Include="Assets\Plugins\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\StampingSystem\Editor\WorldMapStampTokenEditor.cs" />
+    <Compile Include="Assets\Plugins\UniStorm Weather System\Scripts\Editor\VRPreprocessBuild.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Scene Managment\Editor\SceneProfileEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Water System\Editor\PW_WaterUnder_MaterialEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Water System\Editor\GaiaUnderwaterEffectsEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaManagerEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaHDRPPipelineUtils.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\WindManagerEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\ResourceVisualiserEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Asset Samples\Biomes\CTS Profiles\Editor\CTSGX.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Frameworks\Common5\Editor\PWCommonMenuAG.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\API\Editor\APITestEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\MaskSystem\Editor\ImageMaskListEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\ConvertTerrains.cs" />
     <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaHierarchyUtilsEditor.cs" />
     <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Water System\Reflections\Editor\PWS_WaterReflectionsEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\SelectProfileWindowEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaDefaultsEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\StampingSystem\Editor\StamperAutoSpawnerListEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaSessionManagerEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Scene Managment\Editor\GaiaWaterEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Water System\Editor\GaiaUnderwaterEffectsEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\CreateGaiaScriptsOnlyPackage.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Frameworks\PWAddressables1\Editor\PWAddressableDefineEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\MultiTerrainSystem\Editor\Gaia2TopPanel.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaManagerEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaStampSelectorEditorWindow.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaWaterflowMapEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaHDRPPipelineUtils.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\TerrainHelperEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\SpawningSystem\Editor\WorldBiomeMasksEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaResourceHelper.cs" />
     <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\SpawningSystem\Editor\BiomeListEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\SRPConversionUtils.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\WindManagerEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\HDRPDensityVolumeComponentEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\UserFilesEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\AboutEditor.cs" />
-    <Compile Include="Assets\Plugins\Procedural Worlds\Frameworks\Common5\Editor\PWCommonMenuAG.cs" />
-    <Compile Include="Assets\Plugins\PostProcessing\Editor\Models\EyeAdaptationModelEditor.cs" />
-    <Compile Include="Assets\Plugins\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
-    <Compile Include="Assets\Plugins\UniStorm Weather System\Scripts\Editor\VRPreprocessBuild.cs" />
-    <Compile Include="Assets\Plugins\PostProcessing\Editor\Models\AntialiasingModelEditor.cs" />
-    <Compile Include="Assets\Plugins\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />
-    <Compile Include="Assets\Plugins\PostProcessing\Editor\Models\FogModelEditor.cs" />
-    <Compile Include="Assets\Plugins\PostProcessing\Editor\Models\ChromaticAberrationEditor.cs" />
-    <Compile Include="Assets\Plugins\PostProcessing\Editor\Monitors\ParadeMonitor.cs" />
-    <Compile Include="Assets\Plugins\PostProcessing\Editor\Models\DitheringModelEditor.cs" />
-    <Compile Include="Assets\Plugins\PostProcessing\Editor\Utils\CurveEditor.cs" />
-    <Compile Include="Assets\Plugins\PostProcessing\Editor\PropertyDrawers\GetSetDrawer.cs" />
-    <Compile Include="Assets\Plugins\PostProcessing\Editor\Monitors\HistogramMonitor.cs" />
-    <Compile Include="Assets\Plugins\PostProcessing\Editor\Models\DefaultPostFxModelEditor.cs" />
-    <Compile Include="Assets\Plugins\PostProcessing\Editor\Models\DepthOfFieldModelEditor.cs" />
-    <Compile Include="Assets\Plugins\PostProcessing\Editor\PostProcessingModelEditor.cs" />
-    <Compile Include="Assets\Plugins\UniStorm Weather System\Scripts\Editor\CloudProfileEditor.cs" />
-    <Compile Include="Assets\Plugins\PostProcessing\Editor\Models\GrainModelEditor.cs" />
-    <Compile Include="Assets\Plugins\UniStorm Weather System\Scripts\Editor\UniStormEditor.cs" />
-    <Compile Include="Assets\Plugins\PostProcessing\Editor\Models\MotionBlurModelEditor.cs" />
-    <Compile Include="Assets\Plugins\UniStorm Weather System\Scripts\Editor\UniStormDefine.cs" />
-    <Compile Include="Assets\Plugins\PostProcessing\Editor\PropertyDrawers\MinDrawer.cs" />
-    <Compile Include="Assets\Plugins\PostProcessing\Editor\Utils\EditorResources.cs" />
-    <Compile Include="Assets\Plugins\PostProcessing\Editor\PostProcessingMonitor.cs" />
-    <Compile Include="Assets\Plugins\PostProcessing\Editor\Monitors\VectorscopeMonitor.cs" />
-    <Compile Include="Assets\Plugins\PostProcessing\Editor\PostProcessingFactory.cs" />
-    <Compile Include="Assets\Plugins\PostProcessing\Editor\Models\BloomModelEditor.cs" />
-    <Compile Include="Assets\Plugins\PostProcessing\Editor\Models\ScreenSpaceReflectionModelEditor.cs" />
-    <Compile Include="Assets\Plugins\PostProcessing\Editor\Models\ColorGradingModelEditor.cs" />
-    <Compile Include="Assets\Plugins\PostProcessing\Editor\Utils\FxStyles.cs" />
-    <Compile Include="Assets\Plugins\PostProcessing\Editor\Models\BuiltinDebugViewsEditor.cs" />
-    <Compile Include="Assets\Plugins\UniStorm Weather System\Scripts\Effects\Editor\UniStormSunShaftsEditor.cs" />
     <Compile Include="Assets\Plugins\PostProcessing\Editor\Models\VignetteModelEditor.cs" />
-    <Compile Include="Assets\Plugins\PostProcessing\Editor\Monitors\WaveformMonitor.cs" />
-    <Compile Include="Assets\Plugins\PostProcessing\Editor\PostProcessingInspector.cs" />
-    <Compile Include="Assets\Plugins\PostProcessing\Editor\Models\UserLutModelEditor.cs" />
-    <Compile Include="Assets\Plugins\PostProcessing\Editor\PostProcessingBehaviourEditor.cs" />
-    <Compile Include="Assets\Plugins\PostProcessing\Editor\PropertyDrawers\TrackballGroupDrawer.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\HDRPDensityVolumeControllerEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\ScreenShotterEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Photo Mode\Editor\PhotoModeEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\GaiaLightingProfileEditor.cs" />
     <Compile Include="Assets\Plugins\UniStorm Weather System\Scripts\Editor\WeatherTypeEditor.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\Editor\InfinityEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaSessionEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\GaiaGlobalEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaTerrainExplorerEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\ScannerEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\ValueAdds\Location System\Editor\LocationSystemEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Photo Mode\Editor\ParentScalerEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Water System\Reflections\Editor\ReflectionMaskerEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Water System\Editor\AdvancedWaterUtilsEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\MultiTerrainSystem\Editor\TerrainLoaderManagerEditor.cs" />
     <Compile Include="Assets\Plugins\PostProcessing\Editor\Utils\EditorGUIHelper.cs" />
-    <Compile Include="Assets\Plugins\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
-    <Compile Include="Assets\Plugins\UniStorm Weather System\Scripts\Editor\UniStormMenu.cs" />
-    <Compile Include="Assets\Plugins\InfinityPBR\Editor\InfinitySoEditor.cs" />
-    <Compile Include="Assets\Plugins\InfinityPBR\Equipment System\Editor\EquipObjectMenu.cs" />
-    <Compile Include="Assets\Plugins\InfinityPBR\Editor\AnimationEventCopier.cs" />
-    <Compile Include="Assets\Plugins\InfinityPBR\Editor\ObjExporterScript.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaStdMenu.cs" />
     <Compile Include="Assets\Plugins\InfinityPBR\Editor\InfinityEditorScriptableObject.cs" />
+    <Compile Include="Assets\Plugins\PostProcessing\Editor\Utils\EditorResources.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\StampingSystem\Editor\StamperAutoSpawnerListEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\SpawningSystem\Editor\WorldBiomeMasksEditor.cs" />
+    <Compile Include="Assets\Plugins\UniStorm Weather System\Scripts\Editor\UniStormMenu.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaMaskExporterEditor.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\Equipment System\Editor\BlendShapesManagerEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Task System\Editor\GaiaTaskEditor.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\Editor\ObjExporterScript.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\AutoDepthOfFieldEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Water System\Editor\DisableUnderwaterFXTriggerEditor.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\Equipment System\Editor\WardrobePrefabManagerEditor.cs" />
+    <Compile Include="Assets\Plugins\PostProcessing\Editor\PostProcessingModelEditor.cs" />
+    <Compile Include="Assets\Plugins\PostProcessing\Editor\Models\GrainModelEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Frameworks\PWAddressables1\Editor\PWAddressableDefineEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\MaskSystem\Editor\MaskMapExportSettingsEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\GaiaLighting.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaScriptOrderManager.cs" />
+    <Compile Include="Assets\Plugins\PostProcessing\Editor\Monitors\WaveformMonitor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\StampingSystem\Editor\StamperAutoMaskExportListEditor.cs" />
+    <Compile Include="Assets\Plugins\PostProcessing\Editor\Models\ChromaticAberrationEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\SRPConversionUtils.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\UIConfigurationEditor.cs" />
+    <Compile Include="Assets\Plugins\PostProcessing\Editor\Models\DepthOfFieldModelEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\FreeCameraEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\LightProbeUtils.cs" />
+    <Compile Include="Assets\Plugins\PostProcessing\Editor\Utils\CurveEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaResourceEditor.cs" />
     <Compile Include="Assets\Plugins\InfinityPBR\Equipment System\Editor\PrefabAndObjectManagerEditor.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\---Game Modules\Audio Clip Combiner\Editor\AudioClipCombiner.cs" />
+    <Compile Include="Assets\Plugins\PostProcessing\Editor\Utils\FxStyles.cs" />
+    <Compile Include="Assets\Plugins\PostProcessing\Editor\PostProcessingInspector.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\HDRPDensityVolumeComponentEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaMaintenanceProfileEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaExtensionExporterEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\SpawningSystem\Editor\BiomeControllerEditor.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\Equipment System\Editor\BlendShapesPresetManagerEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\FloraEditorUtils.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\StampingSystem\Editor\WorldMapEditor.cs" />
+    <Compile Include="Assets\Plugins\PostProcessing\Editor\Models\DefaultPostFxModelEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaLWRPPipelineUtils.cs" />
+    <Compile Include="Assets\Plugins\UniStorm Weather System\Scripts\Editor\UniStormDefine.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaStampSelectorEditorWindow.cs" />
+    <Compile Include="Assets\Plugins\UniStorm Weather System\Scripts\Editor\UniStormEditor.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\Editor\SFB_DisplayPolycount.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Mesh Simplifier\Editor\LODGeneratorHelperEditor.cs" />
     <Compile Include="Assets\Plugins\InfinityPBR\Editor\SFB_SaveObjectAsMesh.cs" />
     <Compile Include="Assets\Plugins\InfinityPBR\Equipment System\Editor\EquipmentObjectEditor.cs" />
-    <Compile Include="Assets\Plugins\InfinityPBR\---Game Modules\Audio Clip Combiner\Editor\AudioClipCombiner.cs" />
-    <Compile Include="Assets\Plugins\InfinityPBR\Editor\SFB_LoadWelcome.cs" />
-    <Compile Include="Assets\Plugins\InfinityPBR\Editor\SFB_BlendShapesManagerEditor.cs" />
-    <Compile Include="Assets\Plugins\InfinityPBR\Equipment System\Editor\EquipmentSystemStatic.cs" />
-    <Compile Include="Assets\Plugins\InfinityPBR\Equipment System\Editor\BlendShapesPresetManagerEditor.cs" />
-    <Compile Include="Assets\Plugins\InfinityPBR\Equipment System\Editor\WardrobePrefabManagerEditor.cs" />
-    <Compile Include="Assets\Plugins\InfinityPBR\Equipment System\Editor\BlendShapesManagerEditor.cs" />
-    <Compile Include="Assets\Plugins\InfinityPBR\Editor\SFB_AudioSnapshotExporterEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Water System\Editor\GaiaWaterProfileEditor.cs" />
+    <Compile Include="Assets\Plugins\UniStorm Weather System\Scripts\Editor\CloudProfileEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaSessionManagerEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\GaiaWaterflowMapEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\TerrainHelperEditor.cs" />
     <Compile Include="Assets\Plugins\InfinityPBR\Editor\InfinityPBRManager.cs" />
-    <Compile Include="Assets\Plugins\InfinityPBR\Editor\SFB_DisplayPolycount.cs" />
-    <Compile Include="Assets\Plugins\InfinityPBR\Editor\InfinityEditor.cs" />
-    <Compile Include="Assets\Plugins\InfinityPBR\---Game Modules\Audio Clip Combiner\Editor\AudioClipCombinerEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\ExtensionSystem\Editor\OverCloudExtension.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\EditorUtils.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\Editor\SFB_BlendShapesManagerEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Shaders\Scripts\Editor\PW_General_MaterialEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Scene Managment\Editor\GaiaPlayerEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Water System\Reflections\Editor\GaiaPlanarReflectionsHDRPEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Water System\Reflections\Editor\GaiaPlanarReflectionsEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\SpawningSystem\Editor\WorldDesignerEditor.cs" />
+    <Compile Include="Assets\Plugins\PostProcessing\Editor\Models\DitheringModelEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Frameworks\PWAddressables1\Editor\PWAddressableContentPackConfigEditor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\SpawnerGroupEditor.cs" />
+    <Compile Include="Assets\Plugins\PostProcessing\Editor\Monitors\VectorscopeMonitor.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Editor\CreateGaiaScriptsOnlyPackage.cs" />
+    <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\MultiTerrainSystem\Editor\Gaia2TopPanel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Procedural Worlds\Frameworks\Common5\Editor\PWCommon5EditorDLL.dll" />
@@ -506,6 +503,9 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="PWCleanUp4EditorDLL">
+      <HintPath>Assets\Plugins\Procedural Worlds\Frameworks\CleanUp4\Editor\PWCleanUp4EditorDLL.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -523,6 +523,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+    </Reference>
+    <Reference Include="PWCommon5DLL">
+      <HintPath>Assets\Plugins\Procedural Worlds\Frameworks\Common5\PWCommon5DLL.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
@@ -544,12 +547,6 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="PWCleanUp4EditorDLL">
-      <HintPath>Assets\Plugins\Procedural Worlds\Frameworks\CleanUp4\Editor\PWCleanUp4EditorDLL.dll</HintPath>
-    </Reference>
-    <Reference Include="PWCommon5DLL">
-      <HintPath>Assets\Plugins\Procedural Worlds\Frameworks\Common5\PWCommon5DLL.dll</HintPath>
     </Reference>
     <Reference Include="PWCommon5EditorDLL">
       <HintPath>Assets\Plugins\Procedural Worlds\Frameworks\Common5\Editor\PWCommon5EditorDLL.dll</HintPath>
@@ -1037,14 +1034,14 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
@@ -1057,6 +1054,10 @@
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{6A2F10FE-0898-9C1C-9897-D62F3A6958CF}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniRx.csproj">
+      <Project>{41D3DEAB-B409-FD1F-40A1-2B7C38C10E0F}</Project>
+      <Name>UniRx</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

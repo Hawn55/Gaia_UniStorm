@@ -59,6 +59,8 @@
     <Compile Include="Assets\Scripts\Player\PlayerAttackController.cs" />
     <Compile Include="Assets\Scripts\UI\CanvasController.cs" />
     <Compile Include="Assets\Scripts\Enemy\MonsterStatus.cs" />
+    <Compile Include="Assets\Scripts\UI\DamageUI3DController.cs" />
+    <Compile Include="Assets\Scripts\UI\DamageUI3DPop.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -221,6 +221,26 @@
     <Compile Include="Assets\Plugins\PostProcessing\Editor\Utils\EditorGUIHelper.cs" />
     <Compile Include="Assets\Plugins\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
     <Compile Include="Assets\Plugins\UniStorm Weather System\Scripts\Editor\UniStormMenu.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\Editor\InfinitySoEditor.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\Equipment System\Editor\EquipObjectMenu.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\Editor\AnimationEventCopier.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\Editor\ObjExporterScript.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\Editor\InfinityEditorScriptableObject.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\Equipment System\Editor\PrefabAndObjectManagerEditor.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\Editor\SFB_SaveObjectAsMesh.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\Equipment System\Editor\EquipmentObjectEditor.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\---Game Modules\Audio Clip Combiner\Editor\AudioClipCombiner.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\Editor\SFB_LoadWelcome.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\Editor\SFB_BlendShapesManagerEditor.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\Equipment System\Editor\EquipmentSystemStatic.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\Equipment System\Editor\BlendShapesPresetManagerEditor.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\Equipment System\Editor\WardrobePrefabManagerEditor.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\Equipment System\Editor\BlendShapesManagerEditor.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\Editor\SFB_AudioSnapshotExporterEditor.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\Editor\InfinityPBRManager.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\Editor\SFB_DisplayPolycount.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\Editor\InfinityEditor.cs" />
+    <Compile Include="Assets\Plugins\InfinityPBR\---Game Modules\Audio Clip Combiner\Editor\AudioClipCombinerEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Procedural Worlds\Frameworks\Common5\Editor\PWCommon5EditorDLL.dll" />

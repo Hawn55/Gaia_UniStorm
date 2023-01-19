@@ -1,11 +1,7 @@
 # Gaia_UniStorm
 
-・Plugins
-
-AnimX Animals
-
-PostProcessing
-
-Procedural Worlds
-
-UniStorm Weather System
+#・Plugins<br>
+AnimX Animals<br>
+PostProcessing<br>
+Procedural Worlds<br>
+UniStorm Weather System<br>

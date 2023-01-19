@@ -1,0 +1,311 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'ja' Physical Memory: 32705 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/k.oishi/UnityProject/Gaia_UniStorm/My project
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+55747
+Successfully changed project path to: C:/Users/k.oishi/UnityProject/Gaia_UniStorm/My project
+C:/Users/k.oishi/UnityProject/Gaia_UniStorm/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [11596] Host "[IP] 10.12.8.32 [Port] 0 [Flags] 2 [Guid] 339827372 [EditorId] 339827372 [Version] 1048832 [Id] WindowsEditor(7,CR-DD168) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [11596] Host "[IP] 10.12.8.32 [Port] 0 [Flags] 2 [Guid] 339827372 [EditorId] 339827372 [Version] 1048832 [Id] WindowsEditor(7,CR-DD168) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 140.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/k.oishi/UnityProject/Gaia_UniStorm/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f02)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008422 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 125.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.691 seconds
+Domain Reload Profiling:
+	ReloadAssembly (691ms)
+		BeginReloadAssembly (67ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (505ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (106ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (317ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (125ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (92ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010117 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\k.oishi\UnityProject\Gaia_UniStorm\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\k.oishi\UnityProject\Gaia_UniStorm\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 139.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.540 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1541ms)
+		BeginReloadAssembly (211ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (121ms)
+		EndReloadAssembly (1203ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (262ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (750ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (140ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (403ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5640 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.8 MB). Loaded Objects now: 6094.
+Memory consumption went from 300.1 MB to 299.3 MB.
+Total: 3.586200 ms (FindLiveObjects: 0.396900 ms CreateObjectMapping: 0.339400 ms MarkObjects: 2.657800 ms  DeleteObjects: 0.191400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12749.943214 seconds.
+  path: Assets/Plugins/AnimX Animals/Cats/Prefabs/Cat_R_Black.prefab
+  artifactKey: Guid(07ca29b050705364c805bcfb60c0661e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AnimX Animals/Cats/Prefabs/Cat_R_Black.prefab using Guid(07ca29b050705364c805bcfb60c0661e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b557177eedc3ea424dd03d63a8b6ab') in 4.471399 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010320 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\k.oishi\UnityProject\Gaia_UniStorm\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\k.oishi\UnityProject\Gaia_UniStorm\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.581 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1582ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1337ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (275ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (787ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (518ms)
+				ProcessInitializeOnLoadMethodAttributes (112ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5426 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (0.8 MB). Loaded Objects now: 6157.
+Memory consumption went from 293.4 MB to 292.6 MB.
+Total: 4.043900 ms (FindLiveObjects: 0.409800 ms CreateObjectMapping: 0.404500 ms MarkObjects: 3.084200 ms  DeleteObjects: 0.144500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 67.049860 seconds.
+  path: Assets/Plugins/AnimX Animals/Cats/Materials/Body/M_Cat.body_Bengal.mat
+  artifactKey: Guid(08f91d6f9cc30b7439e437b2c5959e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AnimX Animals/Cats/Materials/Body/M_Cat.body_Bengal.mat using Guid(08f91d6f9cc30b7439e437b2c5959e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30fdfa2e500f53cdda708f48231bbb9') in 0.209156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Plugins/AnimX Animals/Cats/Materials/Body/M_Cat.body_Tonkinese.mat
+  artifactKey: Guid(1134e0db522156046ba829fdb0e3c741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AnimX Animals/Cats/Materials/Body/M_Cat.body_Tonkinese.mat using Guid(1134e0db522156046ba829fdb0e3c741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7470ad1a366554a8cccdd12e66efbc4') in 0.033060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Plugins/AnimX Animals/Cats/Materials/Body/M_Cat.body_British.mat
+  artifactKey: Guid(da3de1853d1b1954f8efa0ad9e34787f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AnimX Animals/Cats/Materials/Body/M_Cat.body_British.mat using Guid(da3de1853d1b1954f8efa0ad9e34787f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88426f4a7a5a39ff5bd431ce53c6aafc') in 0.023280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/AnimX Animals/Cats/Materials/Body/M_Cat.body_White.mat
+  artifactKey: Guid(105ff7d18642d8d479112d779fc1005a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AnimX Animals/Cats/Materials/Body/M_Cat.body_White.mat using Guid(105ff7d18642d8d479112d779fc1005a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b0b7228ec12dc07bdb4e78eb067e24') in 0.028669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Plugins/AnimX Animals/Cats/Materials/Body/M_Cat.body_Gray.mat
+  artifactKey: Guid(1d126ad0a77a31e4b945b1904e4859c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AnimX Animals/Cats/Materials/Body/M_Cat.body_Gray.mat using Guid(1d126ad0a77a31e4b945b1904e4859c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c2ba245de7487f5f0249d070910f3d') in 0.031964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.649147 seconds.
+  path: Assets/Plugins/AnimX Animals/Cats/Materials/Eye/M_Cat.eye_Black.mat
+  artifactKey: Guid(e279314355b1c7d468b19dca80912927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AnimX Animals/Cats/Materials/Eye/M_Cat.eye_Black.mat using Guid(e279314355b1c7d468b19dca80912927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a3141759ccfbf34411261f11d37169') in 0.015333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugins/AnimX Animals/Cats/Materials/Eye/M_Cat.eye_Gray.mat
+  artifactKey: Guid(41b112f6e94399a43bb8dd4030d98066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AnimX Animals/Cats/Materials/Eye/M_Cat.eye_Gray.mat using Guid(41b112f6e94399a43bb8dd4030d98066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32797b374b9ff7a799feb5a5940999a') in 0.025106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/AnimX Animals/Cats/Materials/Eye/M_Cat.eye_White.mat
+  artifactKey: Guid(16c5f917baec8ef4f989409299f245d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AnimX Animals/Cats/Materials/Eye/M_Cat.eye_White.mat using Guid(16c5f917baec8ef4f989409299f245d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c17703a9c5bd4d79477558af0b15e06') in 0.058127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Plugins/AnimX Animals/Cats/Materials/Eye/M_Cat.eye_British.mat
+  artifactKey: Guid(9879d70dc189bc840ab90c012cb7f589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AnimX Animals/Cats/Materials/Eye/M_Cat.eye_British.mat using Guid(9879d70dc189bc840ab90c012cb7f589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d92d478e1da6ac340f2c153534ccd14') in 0.059632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/AnimX Animals/Cats/Materials/Eye/M_Cat.eye_Somali.mat
+  artifactKey: Guid(da4c33a82a405bf439a204c47dfa678f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AnimX Animals/Cats/Materials/Eye/M_Cat.eye_Somali.mat using Guid(da4c33a82a405bf439a204c47dfa678f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79604f49dbb67defe6a8f1138d9db8cf') in 0.041812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.638162 seconds.
+  path: Assets/Plugins/AnimX Animals/Cats/Materials/Fur/M_Cat.fur_Black.mat
+  artifactKey: Guid(b359b2ff7031dc34d85307d44acfd791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AnimX Animals/Cats/Materials/Fur/M_Cat.fur_Black.mat using Guid(b359b2ff7031dc34d85307d44acfd791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adfc794ac3fd27e2e566e0143ebd7ccf') in 0.055340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Plugins/AnimX Animals/Cats/Materials/Fur/M_Cat.fur_White.mat
+  artifactKey: Guid(9f712111308a9754297e15b108205f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AnimX Animals/Cats/Materials/Fur/M_Cat.fur_White.mat using Guid(9f712111308a9754297e15b108205f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2161ba14be06ad0fbfb92f4c86ef13d5') in 0.051136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Plugins/AnimX Animals/Cats/Materials/Fur/M_Cat.fur_Tonkinese.mat
+  artifactKey: Guid(8ad9e9362821ee244b028a4949701294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AnimX Animals/Cats/Materials/Fur/M_Cat.fur_Tonkinese.mat using Guid(8ad9e9362821ee244b028a4949701294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d590db44cf19a514ecc050fc080e517') in 0.054668 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

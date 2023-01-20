@@ -8,4 +8,4 @@ Procedural Worlds(Gaia)<br>
 UniStorm Weather System<br>
 UniRx<br>
 InfinityPBR(スライム)　https://assetstore.unity.com/packages/3d/characters/creatures/slime-rpg-character-monster-fantasy-rpg-57835<br>
-ImtStateMachine追加　https://github.com/Sinoa/IceMilkTea/blob/develop/Packages/IceMilkTea/Runtime/Core/StateMachine.cs<br>
+ImtStateMachine　https://github.com/Sinoa/IceMilkTea/blob/develop/Packages/IceMilkTea/Runtime/Core/StateMachine.cs<br>

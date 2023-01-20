@@ -29,7 +29,7 @@ public class PlayerAttackController : MonoBehaviour
             //other.gameObject.SetActive(false);
             if( AttackDamage( other, 1 ) )
             {
-                m_SlimeAnimatort.SetTrigger("die");
+                other.GetComponent<MonsterStateController>().MonsterStateMachine.SendEvent( ( int ) MonsterStateController.StateEventId.Dead );
             }
         }
     }

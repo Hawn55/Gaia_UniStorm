@@ -56,11 +56,12 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Player\PlayerAttackController.cs" />
     <Compile Include="Assets\Scripts\UI\CanvasController.cs" />
-    <Compile Include="Assets\Scripts\Enemy\MonsterStatus.cs" />
+    <Compile Include="Assets\Scripts\Monster\MonsterStatus.cs" />
     <Compile Include="Assets\Scripts\UI\DamageUI3DController.cs" />
     <Compile Include="Assets\Scripts\UI\DamageUI3DPop.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerAttackController.cs" />
+    <Compile Include="Assets\Scripts\Monster\MonsterStateController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -439,6 +439,7 @@
     <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\ExtensionSystem\Compatible\Tenkoku.cs" />
     <Compile Include="Assets\Plugins\Procedural Worlds\Gaia\Scripts\Utils\GaiaDirectories.cs" />
     <Compile Include="Assets\Plugins\PostProcessing\Runtime\Components\FogComponent.cs" />
+    <Compile Include="Assets\Plugins\ImtStateMachine.cs" />
     <Compile Include="Assets\Plugins\InfinityPBR\Magic Spells &amp; Particles\Scripts\SFB_LightFlicker.cs" />
     <Compile Include="Assets\Plugins\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
     <Compile Include="Assets\Plugins\InfinityPBR\Demo Scripts\TakeScreenshot.cs" />

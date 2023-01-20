@@ -564,3 +564,232 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009944 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\k.oishi\UnityProject\Gaia_UniStorm\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\k.oishi\UnityProject\Gaia_UniStorm\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.214 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1215ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (986ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (526ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (352ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5728 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.9 MB). Loaded Objects now: 6458.
+Memory consumption went from 303.4 MB to 301.5 MB.
+Total: 4.233200 ms (FindLiveObjects: 0.455700 ms CreateObjectMapping: 0.403800 ms MarkObjects: 2.847600 ms  DeleteObjects: 0.525200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010752 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\k.oishi\UnityProject\Gaia_UniStorm\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\k.oishi\UnityProject\Gaia_UniStorm\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.373 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1374ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1149ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (300ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (655ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (429ms)
+				ProcessInitializeOnLoadMethodAttributes (113ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5728 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.9 MB). Loaded Objects now: 6462.
+Memory consumption went from 303.4 MB to 301.5 MB.
+Total: 4.104200 ms (FindLiveObjects: 0.416700 ms CreateObjectMapping: 0.450400 ms MarkObjects: 2.699400 ms  DeleteObjects: 0.536700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012407 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\k.oishi\UnityProject\Gaia_UniStorm\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\k.oishi\UnityProject\Gaia_UniStorm\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.207 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1208ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (986ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (287ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (521ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (351ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5728 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.9 MB). Loaded Objects now: 6466.
+Memory consumption went from 303.4 MB to 301.5 MB.
+Total: 3.670000 ms (FindLiveObjects: 0.404800 ms CreateObjectMapping: 0.337200 ms MarkObjects: 2.484000 ms  DeleteObjects: 0.443500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4101.714844 seconds.
+  path: Assets/Plugins/AnimX Animals/Cats/Animations/A_Cat_Add.fbx
+  artifactKey: Guid(066515a478fcfb3478245ae4aa801a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AnimX Animals/Cats/Animations/A_Cat_Add.fbx using Guid(066515a478fcfb3478245ae4aa801a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef624bd12dad5bf54e45dffe019650f') in 0.129436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/AnimX Animals/Cats/Animations/For Preview/A_Cat_Idle_forPreview.fbx
+  artifactKey: Guid(5a67de3a306116047949ddbeaf2e3f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AnimX Animals/Cats/Animations/For Preview/A_Cat_Idle_forPreview.fbx using Guid(5a67de3a306116047949ddbeaf2e3f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23b97c9b10d49bb7811756f6fb41185') in 0.097011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/AnimX Animals/Cats/Animations/For Preview/A_Cat_Move_forPreview.fbx
+  artifactKey: Guid(c53fa7294b1b84748b94e6a4f90a3c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AnimX Animals/Cats/Animations/For Preview/A_Cat_Move_forPreview.fbx using Guid(c53fa7294b1b84748b94e6a4f90a3c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a27ccea4c6e954359fc88336c91be8') in 0.038846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugins/AnimX Animals/Cats/Animations/A_Cat_Jump.fbx
+  artifactKey: Guid(ca2723d80252aa5469372a99f9998d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AnimX Animals/Cats/Animations/A_Cat_Jump.fbx using Guid(ca2723d80252aa5469372a99f9998d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ba52f1844da3a661a630b092f236d8') in 0.050046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/AnimX Animals/Cats/Animations/A_Cat_Pose.fbx
+  artifactKey: Guid(8272d507c2eafbf47af8185e64d45e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AnimX Animals/Cats/Animations/A_Cat_Pose.fbx using Guid(8272d507c2eafbf47af8185e64d45e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb365acad502e1a711b604ec2762aee') in 0.017496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugins/AnimX Animals/Cats/Animations/For Preview/A_Cat_Combat_forPreview.fbx
+  artifactKey: Guid(e0c9655dfb5bc2f4f84f1acbe46d8bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AnimX Animals/Cats/Animations/For Preview/A_Cat_Combat_forPreview.fbx using Guid(e0c9655dfb5bc2f4f84f1acbe46d8bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c66b3bee043485c7606f79435c9c167') in 0.030626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugins/AnimX Animals/Cats/Animations/A_Cat_Idle.fbx
+  artifactKey: Guid(e463835e238bf974dba85d1be792af7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AnimX Animals/Cats/Animations/A_Cat_Idle.fbx using Guid(e463835e238bf974dba85d1be792af7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f574514ec69d274b04c76499f3ccc6') in 0.117596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/AnimX Animals/Cats/Animations/For Preview/A_Cat_Pose_forPreview.fbx
+  artifactKey: Guid(aa85ad99804468f42bfdbdc576952e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AnimX Animals/Cats/Animations/For Preview/A_Cat_Pose_forPreview.fbx using Guid(aa85ad99804468f42bfdbdc576952e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef92b43f44980117cf0cc7c65bfb32e5') in 0.019147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugins/AnimX Animals/Cats/Animations/For Preview/A_Cat_Jump_forPreview.fbx
+  artifactKey: Guid(198394b0a976bf24ead97b23b4b966f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/AnimX Animals/Cats/Animations/For Preview/A_Cat_Jump_forPreview.fbx using Guid(198394b0a976bf24ead97b23b4b966f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1699151bcccd15fb6c35bf82a0dc16c2') in 0.026535 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

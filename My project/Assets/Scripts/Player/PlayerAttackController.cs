@@ -6,7 +6,7 @@ using UniRx;
 public class PlayerAttackController : MonoBehaviour
 {
     [SerializeField] GameObject m_AttackCollider;
-    [SerializeField] Animator m_SlimeAnimatort;
+    [SerializeField] Animator m_CatAnimator;
 
     const float m_AttackColTime = 0.5f;
 
@@ -14,6 +14,7 @@ public class PlayerAttackController : MonoBehaviour
     {
         if( Input.GetMouseButtonDown( 0 ) )
         {
+            m_CatAnimator.SetTrigger( "Bite_L" );
             Observable.FromCoroutine( AttackCoroutine, publishEveryYield: false )
             .Subscribe(
                 _ => Debug.Log( "OnNext" ),
@@ -26,7 +27,6 @@ public class PlayerAttackController : MonoBehaviour
     {
         if( other.tag == "Enemy" )
         {
-            //other.gameObject.SetActive(false);
             if( AttackDamage( other, 1 ) )
             {
                 other.GetComponent<MonsterStateController>().MonsterStateMachine.SendEvent( ( int ) MonsterStateController.StateEventId.Dead );
